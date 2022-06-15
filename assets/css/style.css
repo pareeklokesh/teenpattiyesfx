@@ -1,0 +1,165 @@
+*{
+  padding: 0;
+  margin: 0;
+  user-select:none;
+  list-style: none;
+}
+.center{
+  width: 550px;
+  min-height: 1000px;
+  margin: 0 auto;
+  position: relative;
+  background: url("../img/bg.jpg")no-repeat top center/100% auto,#130E0A;
+  padding-bottom: 6rem;
+  overflow-x: hidden;
+}
+.center .top{
+  width: 60%;
+  position: relative;
+  margin: 49% auto 0;
+}
+.center .top p{
+	position: absolute;
+	right: 1.6rem;
+	top: .4rem;
+	bottom: 0;
+	color: #FFCE7E;
+	margin: auto;
+	z-index: 9;
+	font-size: 19px;
+}
+.center .top>img{
+  width: 100%;
+  display: block;
+}
+.center .downBtn{
+  width: 100%;
+  text-align: center;
+  padding-top: 0px;
+}
+.center .downBtn img{
+  width: 58%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  animation: moves 1.8s infinite;
+}
+.top22{
+	width: 96%;
+	margin: 2rem auto 1rem;
+}
+.top22 img{
+	width: 100%;
+}
+.top2{
+	width: 80%;
+	margin: 30px auto 0;
+}
+.top2 img{
+	width: 100%;
+}
+.top3{
+	width: 98%;
+	margin: 10px auto 0;
+}
+.top3 img{
+	width: 100%;
+	position: relative;
+	left: 7px;
+}
+.top4{
+	width: 94%;
+	margin: 10px auto 0;
+}
+.top4 img{
+	width: 100%;
+	position: relative;
+}
+.word{
+	width: 94%;
+	margin: 0 auto;
+}
+.word p{
+	font-size: .7rem;
+	color: #DDCDA6;
+}
+.swiper{
+	width: 94%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.swiper .swiper-slide{
+	width: 100%;
+}
+.swiper .swiper-slide img{
+	width: 100%;
+}
+.footbtn{
+	width: 550px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0;
+	box-sizing: border-box;
+	z-index: 99;
+}
+.footbtn a{
+	width: 100%;
+}
+.footbtn a img{
+	width: 100%;
+	display: block;
+}
+
+.kf{
+	position: fixed;
+	right: 5%;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 3rem;
+	height: 3rem;
+	
+}
+.kf img{
+	width: 100%;
+}
+@keyframes moves2 {
+  0%{
+    transform: translateY(1px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(1px);
+  }
+}
+@keyframes moves {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(.96);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+@media (max-width: 767px) {
+	.center .top p {
+		right: 10px;
+  top: 4px;
+  font-size: 14px;
+}
+}
+@media  (max-width: 550px) {
+  .center,.footbtn{
+    width: 100%;
+  }
+}
