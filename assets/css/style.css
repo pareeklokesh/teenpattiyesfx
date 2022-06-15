@@ -250,10 +250,14 @@ body {
 
 @media (max-width: 992px) {
 	.center ,.footbtn{
-  width: 80%;
+  width: 100%;
 }
-.footbtn img {
-	height: 130px;
+.center .top p {
+  right: 20px;
+top: 30%;
+}
+.center {
+  padding-bottom: 240px;
 }
 
 }
@@ -263,6 +267,9 @@ body {
 		right: 10px;
   top: 4px;
   font-size: 14px;
+}
+.center {
+  padding-bottom: 142px;
 }
 .footbtn img {
 	height: inherit;
