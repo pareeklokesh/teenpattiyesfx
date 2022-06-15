@@ -248,6 +248,15 @@ body {
   100% {transform: scale(1.1);}
 }
 
+@media (max-width: 992px) {
+	.center ,.footbtn{
+  width: 80%;
+}
+.footbtn img {
+	height: 130px;
+}
+
+}
 
 @media (max-width: 767px) {
 	.center .top p {
@@ -255,11 +264,17 @@ body {
   top: 4px;
   font-size: 14px;
 }
+.footbtn img {
+	height: inherit;
+}
 .table td {
   padding: 15px 5px !important;
   font-size: 14px;
 }
 .w-70 {
+  width: 100%;
+}
+.center ,.footbtn{
   width: 100%;
 }
 
