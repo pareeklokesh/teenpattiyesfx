@@ -293,7 +293,9 @@ padding: 14px 0;
   padding-bottom: 14px;
 padding-bottom: 10px;
 }
-
+body {
+  background: #130e0a;
+}
 
 
 
