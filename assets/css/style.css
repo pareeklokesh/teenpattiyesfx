@@ -275,14 +275,15 @@ body {
 .topfooter {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-/*.footbtn{
-  background: rgba(76, 30, 86, 0.5);
+.footbtn{
+  background: linear-gradient(to top, #37061c, #4f235a, #592d5d, #491b4e);
 padding: 14px 0;
   padding-bottom: 14px;
 padding-bottom: 10px;
-}*/
+}
 
 
 
@@ -324,6 +325,16 @@ top: 30%;
 }
 .center ,.footbtn{
   width: 100%;
+}
+.f-fixtext {
+  font-size: 14px;
+}
+.topfooter img {
+  width: 70px;
+}
+.topfooter .footer-downolad {
+  
+  font-size: 13px;
 }
 
 }
