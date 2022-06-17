@@ -379,8 +379,8 @@ top: -5px;
   font-size: 14px;
 }
 .top41 {
-  background: #624322;
-  padding: 30px 10px;
+  /*background: #624322;
+  padding: 30px 10px;*/
   width: 90%;
   margin: 0px auto;
     margin-top: 0px;
@@ -410,6 +410,10 @@ top: -5px;
   right: 20px;
   padding-left: 0 !important;
 }
+.unlimtrdagent {
+  position: absolute;
+  top: 18%;
+}
 
 
 
@@ -429,7 +433,15 @@ top: 30%;
 }
 
 @media (max-width: 767px) {
-  
+  .top41 {
+  width: 96%;
+}
+.top41 p {
+  font-size: 12px;
+}
+.unlimtrdagent {
+  top: 20%;
+}
 .surprisingbonus h4 {
   font-size: 17px;
 }
